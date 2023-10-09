@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.80fb648e.css",
-    "main.js": "/static/js/main.6d3638b7.js",
-    "index.html": "/index.html"
+    "main.css": "/newPortFolio2023FrontEnd/static/css/main.80fb648e.css",
+    "main.js": "/newPortFolio2023FrontEnd/static/js/main.7b3fd28e.js",
+    "index.html": "/newPortFolio2023FrontEnd/index.html"
   },
   "entrypoints": [
     "static/css/main.80fb648e.css",
-    "static/js/main.6d3638b7.js"
+    "static/js/main.7b3fd28e.js"
   ]
 }

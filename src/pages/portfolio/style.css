@@ -17,6 +17,9 @@
         font-size: 0;
         min-height: 300px;
     }
+    .po_item img {
+        max-width: 100%;
+    }
 
     .po_item {
         display: inline-block;
@@ -30,17 +33,15 @@
         transition: 0.3s ease;
         font-size: 0;
         min-height: 300px;
-        overflow: hidden; /* Agregamos overflow para ocultar el desbordamiento */
-        max-height: 400px; /* Establece la altura máxima deseada */
         text-overflow: ellipsis;
     }
 
-    .po_item img {
-        max-width: 100%;
-    }
+    
 
     .po_item .content {
         position: absolute;
+        height: 0;
+        width: 0;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -55,10 +56,10 @@
         transition: 0.3s ease-in-out;
         opacity: 0;
         border: 1px solid black;
-        text-overflow: ellipsis; /* Agregamos text-overflow para mostrar puntos suspensivos (...) */
-        white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
-        max-height: 100%; /* Ajusta esto según tus preferencias */
-        overflow: auto;
+        opacity: 0;
+        transition-delay: 1s;
+        transition: 0.3s ease;
+        font-size: 13px;
     }
 
     .po_item:hover {

@@ -46,11 +46,27 @@ export const Portfolio = () => {
                   </div>
                 </div>
                 <div className="info">
-                  <p>{data.name}</p>
+                  <h4>{data.name}</h4>
+                </div>
+                
+
+                <hr />
+                <div>
+                  <h5 className="text-center">Stack</h5>
+                  {data.stack.map((el, i) => (
+                    <ul>
+                      <li><span key={i}>- {el.name}</span></li>
+                    </ul>
+                    
+                    ))}
                 </div>
                 <div className="icons_flow">
-                  <a target="_blank" href={data.github}><FaGithub /></a>
-                  <a target="_blank" href={data.url}><FaLinkedin/></a>
+                  <a target="_blank" href={data.github}>
+                    <FaGithub />
+                  </a>
+                  <a target="_blank" href={data.url}>
+                    <FaLinkedin />
+                  </a>
                 </div>
               </div>
             );

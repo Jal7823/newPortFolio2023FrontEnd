@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/newPortFolio2023FrontEnd/static/css/main.2ce88d78.css",
-    "main.js": "/newPortFolio2023FrontEnd/static/js/main.e6e17ae7.js",
+    "main.css": "/newPortFolio2023FrontEnd/static/css/main.ee39440d.css",
+    "main.js": "/newPortFolio2023FrontEnd/static/js/main.f87962a1.js",
     "index.html": "/newPortFolio2023FrontEnd/index.html"
   },
   "entrypoints": [
-    "static/css/main.2ce88d78.css",
-    "static/js/main.e6e17ae7.js"
+    "static/css/main.ee39440d.css",
+    "static/js/main.f87962a1.js"
   ]
 }

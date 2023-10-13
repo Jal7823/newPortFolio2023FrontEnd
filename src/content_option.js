@@ -18,7 +18,7 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "about my self",
+    title: "about myself",
     aboutme: "I am a passionate backend developer with experience developing web applications and APIs using technologies like Django, Python, and JavaScript. I specialize in designing and implementing scalable and efficient solutions, and I take pride in creating high-quality software products for customers and users. With a detail-oriented mindset and strong skills in database management and programming logic, I am committed to delivering projects that meet established deadlines and requirements. I am always looking for opportunities to learn and improve, and I enjoy collaborating in dynamic and creative teams.",
 };
 const worktimeline = [{

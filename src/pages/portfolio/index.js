@@ -37,12 +37,14 @@ export const Portfolio = () => {
             return (
               <div>
                 <div key={i} className="po_item">
+                <a target="_blank"  rel="noreferrer" href={data.url}>
                   <img src={data.image} alt="" />
+                  </a>
                   <div className="content">
                     <p>{data.description}</p>
-                    <a target="_blank" href={data.url}>
+                    
                       view project
-                    </a>
+                    
                   </div>
                 </div>
                 <div className="info">
@@ -60,11 +62,14 @@ export const Portfolio = () => {
                     
                     ))}
                 </div>
+                <br />
+                <hr />
+
                 <div className="icons_flow">
-                  <a target="_blank" href={data.github}>
+                  <a target="_blank"  rel="noreferrer" href={data.github}>
                     <FaGithub />
                   </a>
-                  <a target="_blank" href={data.url}>
+                  <a target="_blank"  rel="noreferrer" href={data.url}>
                     <FaLinkedin />
                   </a>
                 </div>

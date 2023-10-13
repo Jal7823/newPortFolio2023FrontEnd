@@ -39,13 +39,13 @@ export const Portfolio = () => {
                 <div key={i} className="po_item">
                 <a target="_blank"  rel="noreferrer" href={data.url}>
                   <img src={data.image} alt="" />
-                  </a>
                   <div className="content">
                     <p>{data.description}</p>
                     
                       view project
                     
                   </div>
+                  </a>
                 </div>
                 <div className="info">
                   <h4>{data.name}</h4>

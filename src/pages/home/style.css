@@ -49,6 +49,7 @@ section {
     width: 50%;
 }
 
+
 @media (max-width:991.98px) {
     .intro_sec .text,
     .intro_sec .h_bg-image {
@@ -230,5 +231,9 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    filter: saturate(0.5);
+    /* filter: saturate(0.5); */
 }
+
+
+
+

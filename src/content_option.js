@@ -14,7 +14,8 @@ const introdata = {
         third: "I'm back-end developer",
     },
     description: "I am a backend developer with experience in Django, Python and JavaScript, specializing in creating efficient web applications and APIs. I focus on scalability and quality, and have strong skills in database management and programming logic.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    // your_img_url: "https://i.postimg.cc/BvpY5Mx2/logo-removebg-preview.png",
+    your_img_url: "https://i.postimg.cc/zG0hwdpt/carnet2.png",
 };
 
 const dataabout = {

@@ -103,9 +103,25 @@
 .icons_flow{
     display: flex;
     justify-content: space-around;
+    align-content: center;
     font-size: 30px;
 }
 
 a {
     text-decoration: none;
+}
+
+
+.visit{
+    background-color: #fff;
+    color: #000;
+    border-radius: 23px;
+    width: 50%;
+    
+}
+
+.visit:hover{
+    background-color: #000;
+    opacity: .3;
+    color: #fff;
 }
